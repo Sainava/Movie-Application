@@ -60,20 +60,40 @@
   .trending {
     @apply mt-20;
 
+    & h2 {
+      @apply text-2xl font-bold text-white sm:text-3xl mb-6;
+    }
+
     & ul {
-      @apply flex flex-row overflow-y-auto gap-5 -mt-10 w-full hide-scrollbar;
+      @apply flex flex-row overflow-x-auto gap-8 w-full hide-scrollbar;
     }
 
     & ul li {
-      @apply min-w-[230px] flex flex-row items-center;
+      @apply min-w-[250px] flex flex-row items-center gap-4;
     }
 
-    & ul li p {
-      @apply fancy-text mt-[22px] text-nowrap;
+    & ul li .trending-number {
+      @apply fancy-text flex-shrink-0;
+    }
+
+    & ul li .movie-info {
+      @apply flex flex-col items-center;
     }
 
     & ul li img {
-      @apply w-[127px] h-[163px] rounded-lg object-cover -ml-3.5;
+      @apply w-[127px] h-[163px] rounded-lg object-cover shadow-lg;
+    }
+
+    & ul li .movie-details {
+      @apply flex flex-col items-center mt-3 text-center max-w-[140px];
+    }
+
+    & ul li .movie-title {
+      @apply text-white font-semibold text-sm leading-tight mb-1;
+    }
+
+    & ul li .search-count {
+      @apply text-gray-400 text-xs bg-dark-100 px-2 py-1 rounded-full;
     }
   }
 
