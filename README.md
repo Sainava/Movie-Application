@@ -4,12 +4,12 @@ A modern, responsive movie discovery application built with React and powered by
 
 ## Features
 
-- **🔍 Real-time Movie Search**: Debounced search with instant results
-- **📈 Trending Movies**: Dynamic trending section based on search analytics
-- **🎯 Search Analytics**: Track popular searches using Appwrite database
-- **📱 Responsive Design**: Optimized for all device sizes
-- **⚡ Fast Performance**: Built with Vite for lightning-fast development and builds
-- **🎨 Modern UI**: Beautiful gradient designs and smooth animations
+- **Real-time Movie Search**: Debounced search with instant results
+- **Trending Movies**: Dynamic trending section based on search analytics
+- **Search Analytics**: Track popular searches using Appwrite database
+- **Responsive Design**: Optimized for all device sizes
+- **Fast Performance**: Built with Vite for lightning-fast development and builds
+- **Modern UI**: Beautiful gradient designs and smooth animations
 
 ## Tech Stack
 
